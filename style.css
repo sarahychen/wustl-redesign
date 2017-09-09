@@ -1,0 +1,271 @@
+body {
+
+}
+h3 {
+  margin: 2px;
+}
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+#navbar-header {
+  background-color: rgb(165, 20, 23);
+  margin-bottom: 0px;
+}
+#search-form {
+  float: right;
+}
+#navbar-header-content{
+  width: 100%;
+}
+
+#main {
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
+
+/* ------ page img header "olin business school" ----*/
+#title-header{
+  width: 100%;
+  /*border: 1px solid gray;*/
+  position: relative;
+}
+#title-header img {
+  position: relative;
+  top: -10px;
+}
+#title-header-text {
+  display:inline-block;
+  position: relative;
+  top: 15px;
+  /*line-height: .9em;*/
+}
+#olin-title{
+  margin-top:0px;
+  display: inline-block;
+  font-family: Baskerville, Times, serif;
+}
+#olin-subtitle{
+  /*display: inline-block;*/
+  /*float:left;*/
+  margin-top: 0px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+/*---navigation bar---*/
+#collapse-collect {
+  padding: 0px;
+  background-color: rgb(115,	115,	115	);
+  /*color: white;*/
+}
+#navigation {
+  /*color: rgb(251, 251, 251);*/
+  background-color: rgb(115,	115,	115	);
+}
+#navigation-container{
+  width: 100%;
+  background-color: rgb(115,	115,	115	);
+}
+#navigation a{
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+#navigation a:hover{
+  color: rgb(165, 20, 23);
+  background-color: white;
+}
+#manual-active{
+  background-color: rgb(165, 20, 23);
+  color: white;
+}
+
+/*----sidebar navigation, table of contents--------*/
+#sidebar-navigation {
+  background-color: rgb(234,	236,	236);
+  padding: 10px;
+}
+#sidebar-navigation a {
+  color: inherit;
+  /*119	125	125	*/
+}
+#sidebar-navigation li {
+  border-collapse: collapse;
+  border-top: 1px solid rgb(221,	221,	221);
+  border-bottom: 1px solid rgb(221,	221,	221);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#sidebar-navigation li a:hover{
+  background-color: rgb(165, 20, 23);
+  /*color: rgb(110,	117,	117)	;*/
+  color: white;
+}
+#sidebar-navigation li a {
+  padding: 5px;
+}
+#sidebar-navigation .sub-list li {
+  margin-left: 20px;
+}
+#sidebar-navigation h3 {
+  color: rgb(165, 20, 23);
+  margin-bottom: 5px;
+}
+
+/*------content div-----*/
+#content h1 {
+  margin-top:0px;
+}
+#content h2{
+  font-size: 27px;
+  margin-top: 15px;
+}
+#content h3 {
+  font-size: 18px;
+  color: rgb(110,	117,	117);
+  font-style:italic;
+  margin-bottom: 5px;
+}
+#content h3 a {
+  color:inherit;
+  text-decoration: underline;
+}
+#content h3 a:hover {
+  color: rgb(165, 20, 23);
+}
+#content a {
+  color: rgb(165, 20, 23);
+}
+
+#get-started{
+  margin-top: 15px;
+  background-color: rgba(234,	236,	236, 0.5);
+  padding-bottom: 10px;
+  border: 1px solid rgb(221,	221	,221);
+}
+#get-started h4{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  margin-top: 0px;
+}
+#get-started-title {
+  padding-left: 5px;
+  /*padding: 5px;*/
+  /*width: 100%;*/
+  background-color: rgb(165, 20, 23);
+}
+
+#fast-facts{
+  background-color: rgba(234,	236,	236, 0.5);
+  border: 1px solid rgb(221,	221	,221);
+}
+#fast-facts h4{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 0px;
+}
+#fast-facts-title{
+  padding-left: 5px;
+  background-color: rgb(165, 20, 23);
+  color: white;
+  /*padding: 5px;*/
+}
+#fast-facts-fact{
+  z-index: 10;
+  background-color: rgba(244,	246,	246);
+  border-bottom: 1px solid rgb(221,	221	,221);
+}
+#fast-facts h5{
+  font-size: 16px;
+  text-align:center;
+  /*background-color: rgba(244,	246,	246);*/
+}
+#see-more-facts {
+  padding-left: 5px;
+  font-weight: bold;
+  /*color: white;*/
+  background-color: rgb(165, 20, 23);
+}
+#see-more-facts a{
+  color: white;
+  letter-spacing: 0.02em;
+  text-decoration: underline;
+}
+
+#general-info {
+  background-color: rgb(21,	72,	108	);
+  border: 1px solid gray;
+}
+#olin-blog, #news-announcements, #events, #featured {
+  border-collapse: collapse;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  /*height: 100%;*/
+}
+#general-info h4 {
+  color: white;
+}
+#general-info h5 {
+  color:white;
+}
+#general-info p{
+  color: white;
+}
+#general-info li{
+  color: white;
+}
+#featured img {
+  float: left;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+#more-about-olin {
+  background-color: rgb(234	,236,	236)	;
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+#more-about-olin li {
+  list-style-type: none;
+}
+#more-about-olin ul {
+  margin-left: -20px;
+}
+#more-about-olin a {
+  color:inherit;
+}
+#olin-contacts a{
+  font-weight: bold;
+  color: rgb(165, 20, 23);
+}
+#info-for h4 {
+  color: rgb(165, 20, 23);
+}
+#info-for a{
+  color: rgb(110, 117, 129);
+}
+#useful-links h4{
+  color: rgb(165, 20, 23)
+}
+#useful-links a {
+  color: rgb(110, 117, 129);
+}
+
+/*---footer---*/
+#footer {
+  background-color: rgb(165, 20, 23);
+  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+#footer img{
+  float: left;
+}
+#footer p{
+  /*position: absolute;*/
+
+  color: white;
+}
